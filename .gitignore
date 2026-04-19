@@ -1,0 +1,38 @@
+# ── Dependencies ──
+vigilo-insights/node_modules/
+server/venv/
+
+# ── Environment variables ──
+.env
+.env.local
+.env.production
+
+# ── Python cache ──
+__pycache__/
+*.py[cod]
+*.pyo
+
+# ── IDE ──
+.vscode/
+.idea/
+
+# ── OS files ──
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── Build output ──
+vigilo-insights/dist/
+*.egg-info/
+
+# ── Logs ──
+*.log
+error.txt
+error_log.txt
+
+# ── Database files ──
+*.db
+*.sqlite3
+
+# ── Misc ──
+.antigravityignore
